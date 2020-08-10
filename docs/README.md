@@ -38,7 +38,7 @@ Contact our sales team to obtain a sandbox token and test the integration of thi
 
 ### 2. Generating an SDK token
 
-For security reasons, instead of using the API token directly in you client-side code, you will need to generate and include a short-lived JSON Web Token ([JWT](https://jwt.io/)) every time you initialize the SDK. To generate an SDK Token you should perform a request to the [SDK Token endpoint](https://sandbox.flowboard.in/api/v1/customer/) in the Flowboard API:
+For security reasons, instead of using the API token directly in you client-side code, you will need to generate and include a short-lived JSON Web Token ([JWT](https://jwt.io/)) every time you initialize the SDK. To generate an SDK Token you should perform a request to the [SDK Token endpoint](https://sandbox.flowboard.in/api/v1/customer/) in the Flowboard API. Look into the [Flowboard API Documentation](https://docs.flowboard.in) for further Reporting APIs:
 
 ```shell
 $ curl --location --request POST 'https://sandbox.flowboard.in/api/v1/customer/' \
@@ -515,7 +515,7 @@ A number of options are available to allow you to customise the SDK:
   
   ```javascript
     options:{
-      terms: `You agree to  <a href="https://flowboard.io">flowBoard Terms and Condition</a> and that you authorize us to fetch your information from UIDAI.`,
+      terms: `You agree to  <a href="https://example.com">terms and condition</a> and that you authorize us to fetch your information from UIDAI.`,
       consent: `I agree to  <a href="https://example.com">terms and condition</a>`
     }
   ```
