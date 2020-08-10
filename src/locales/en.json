@@ -1,0 +1,542 @@
+{
+    "welcome": {
+        "title": "Open a Bank Account",
+        "bold_title": "Digitally",
+        "description": "Please proceed to get started.",
+        "next_step_button": "Get Started"
+    },
+    "stepsIntro": {
+        "title": "You are 4 steps away",
+        "description": "Please proceed to complete these 4 steps.",
+        "next_step_button": "Proceed"
+    },
+    "phoneVerify": {
+        "phone_number_input": {
+            "title": "Enter Your",
+            "bold_title": "contact number",
+            "description": "Mobile number linked with bank is needed to pull your personal details from your telecom provider.",
+            "placeholder": "Enter mobile number",
+            "next_step_button": "Get OTP"
+        },
+        "otp_input": {
+            "title": "Submit the",
+            "bold_title": "OTP",
+            "description": "Please enter the OTP received on your mobile number",
+            "placeholder": "Enter OTP",
+            "resend_button": "Resend OTP",
+            "wrong_number_button": "Wrong Number",
+            "consent": "I accept, <a href=\"https://flowboard.io\">Terms and Conditions</a>",
+            "next_step_button": "Proceed"
+        }
+    },
+    "telecomInfo": {
+        "title": "Your",
+        "bold_title": "Details",
+        "description": "Your Personal details as per your Telecom Provider",
+        "edit_button": "Edit",
+        "edit_title": "Please edit wherever required",
+        "consent": "These are correct, please go ahead to check my bureau score I allow you to do so",
+        "next_step_button": "Proceed"
+    },
+    "creditScore": {
+        "fetching_credit_score": {
+            "salutation": "Hi ",
+            "title": "hold on while we check your eligibility...."
+        },
+        "credit_score_fetched": {
+            "salutation": "Hi ",
+            "title": "Here is your Score",
+            "description": "Eligible users must have credit score above"
+        },
+        "eligible": {
+            "title": "Congratulations, you are",
+            "bold_title": "eligible!!!",
+            "next_step_button": "Proceed"
+        },
+        "in_eligible": {
+            "title": "Uh Oh!! Looks like you are ",
+            "bold_title": "NOT eligible!!",
+            "description": "Eligible users must have credit score above",
+            "message": "To know more continue",
+            "next_step_button": "Know More"
+        },
+        "no_score": {
+            "title": "Uh Oh!! Looks like we need some more details to fetch your score.",
+            "message_one": "Your information is encrypted and securely transmitted",
+            "message_two": "We do not store your credentials",
+            "next_step_button": "Proceed"
+        }
+    },
+    "creditScoreAdditionalInfo": {
+        "title": "Please share your details by completing the fields below.",
+        "description": "These details are needed to fetch your credit score",
+        "form": {
+            "pan_number": {
+                "field_name": "Pan Number",
+                "placeholder": "Enter PAN Number"
+            },
+            "dob": {
+                "field_name": "D.O.B",
+                "placeholder": "Enter Date of Birth"
+            }
+        },
+        "next_step_button": "Continue"
+    },
+    "itrIntro": {
+        "title": "You meet credit score eligibility now we need to check your ",
+        "title_bold": "income eligibility",
+        "itr_button": {
+            "title": "ITR PULL",
+            "description": "Income Tax Return data"
+        }
+    },
+    "itrPull": {
+        "pan_number_input": {
+            "title": "Please share your latest income tax return digitally by completing the fields below.",
+            "description": "These details are needed to fetch your ITR Return and 26AS",
+            "form": {
+                "pan_number": {
+                    "field_name": "Pan Number",
+                    "placeholder": "Enter PAN Number"
+                }
+            },
+            "next_step_button": "Continue"
+        },
+        "password_options": {
+            "title": "Do you have your",
+            "title_bold": "Income Tax Portal password ?",
+            "description": "We need your Income Tax Portal password to pull your Filed Income Tax Returns",
+            "remember_password_button": "Yes",
+            "reset_password_button": "Reset My Password"
+        },
+        "password_input": {
+            "title": "Please enter your Income Tax Portal password",
+            "description": "Your password will not be saved",
+            "form": {
+                "password": {
+                    "field_name": "Password",
+                    "placeholder": "Enter Password"
+                }
+            },
+            "forget_password_button": "Forgot password",
+            "next_step_button": "Continue"
+        },
+        "reset_password": {
+            "title": "Please enter your new password",
+            "description": "Your password will not be saved",
+            "password_conditions": {
+                "one_alphabet": "At least One alphabet",
+                "one_special_char": "At least one special character",
+                "at_least_one_number": "At least one number",
+                "total_pass_length": "Total password length should be between 6-14 characters"
+            },
+            "next_step_button": "Change Password"
+        },
+        "otp_input": {
+            "title": "Reset ",
+            "title_bold": "Password",
+            "description": "The OTP is sent to the mobile number linked with your Aadhaar\ncard. If you don't know your linked mobile number please click\non ",
+            "know_linked_number_button": "Know my linked number",
+            "form": {
+                "otp": {
+                    "field_name": "Submit the OTP",
+                    "placeholder": "Submit OTP"
+                }
+            },
+            "consent": "I agree for resetting my\nIncome Tax portal password",
+            "next_step_button": "Proceed"
+        },
+        "know_linked_number": {
+            "title": "Enter ",
+            "title_bold": "Aadhaar Number",
+            "description": "Please enter your Aadhaar to know your linked mobile number.",
+            "form": {
+                "aadhaar_number": {
+                    "field_name": "Aadhaar Number",
+                    "placeholder": "Aadhaar Number"
+                }
+            },
+            "success_title": "Your Aadhaar is linked with",
+            "success_description": "Please enter the OTP sent to ",
+            "next_step_button": "Proceed"
+        }
+    },
+    "offlineAadhaarIntro": {
+        "title": "Please provide your Aadhaar details for ",
+        "title_bold": "Digital KYC",
+        "message": "Thanks your Income Tax data has been retrieved.",
+        "next_step_button": "Proceed"
+    },
+    "offlineAadhaarPull": {
+        "terms": {
+            "title": "Terms & Condition",
+            "description": "By clicking on proceed button below, you are hereby acknowledging that you are providing your Aadhaar related details voluntarily to Flowboard Private Limited to retrieve your Aadhaar Paperless-XML from the UIDAI Portal on your behalf based on the process detailed below. It is not mandatory for you to provide your Aadhaar details. If you do not wish to continue with providing the same, request you to cancel the transactions. I understand that Flowboard Private Limited will be able to access my photograph through XML file being parsed from the database of Unique Identification Authority of India, to further share the same with the service provider. If you do not agree for us to access the same, request you to not click on Proceed.",
+            "description_collapsed": "By accepting the Terms & Conditions you are expressly providing your consent to the collection of your information for the purpose of providing access of the same by Flowboard to enable Flowboard (\"Client\") to initiate your on boarding to avail the Client's services. The information you provide may be used to help improve and train our products and assist in the development of any technologies and in addition Flowboard may use the above information to fulfil any other lawful purpose. Flowboard shall be redacting and collecting your Aadhaar number. The first 8 digits of the Aadhaar number will be blacked out when you insert the same on to the webpage. You shall be prompted to insert the Aadhaar number twice, in order to ensure its correctness and the Aadhaar number will be encrypted and transferred/ accessed.\nThe following screens will capture your Aadhaar number / VID and other relevant details required to download Paperless-XML from UIDAI Portal https://resident.uidai.gov.in/offline-kyc instead of forwarding you to UIDAI portal. We will be doing the offline KYC process including the following steps:",
+            "know_more_button": "Know More",
+            "know_less_button": "Know Less",
+            "next_step_button": "I Accept T&C"
+        },
+        "aadhaar_number_input": {
+            "title_bold": "Enter your Details",
+            "description": "Enter you Aadhaar Number",
+            "form": {
+                "field_name": "Aadhaar Number",
+                "placeholder": "Aadhaar Number"
+            },
+            "verification_method_description": "OTP Verification Method",
+            "consent": "Send OTP to my registered Mobile",
+            "next_step_button": "Proceed"
+        },
+        "otp_input": {
+            "title": "Submit the ",
+            "title_bold": "OTP",
+            "description": "Please enter the OTP recieved on you mobile number linked with Aadhaar",
+            "resend_button": "Resend OTP",
+            "wrong_number_button": "Wrong Number",
+            "consent": "Fetch my data from UIDAI",
+            "checkbox_error_message": "Please select the checkbox",
+            "next_step_button": "Proceed"
+        }
+    },
+    "applicationForm": {
+        "application_form_intro": {
+            "title": "Application Form",
+            "description": "80% of the fields are prefilled from prior steps",
+            "next_step_button": "Proceed"
+        },
+        "family_information": {
+            "title": ", please enter your family details to continue..",
+            "description": "Your information will be encrypted and securely processed.",
+            "form": {
+                "full_name": {
+                    "field_name": "Full Number",
+                    "placeholder": "Full Name"
+                },
+                "father_name": {
+                    "field_name": "Father Number",
+                    "placeholder": "Father Name"
+                },
+                "mother_name": {
+                    "field_name": "Mother Number",
+                    "placeholder": "Mother Name"
+                }
+            },
+            "next_step_button": "Continue"
+        },
+        "personal_information": {
+            "title": ", please enter your personal details",
+            "description": "Your information will be encrypted and securely processed.",
+            "form": {
+                "aadhaar_number": {
+                    "field_name": "Aadhaar Number",
+                    "placeholder": "Aadhaar Name"
+                },
+                "dob": {
+                    "field_name": "D.O.B",
+                    "placeholder": "D.O.B"
+                },
+                "education": {
+                    "field_name": "Education",
+                    "options": {
+                        "primary_education": {
+                            "text": "Primary education",
+                            "value": "Primary education"
+                        },
+                        "secondary_education": {
+                            "text": "Secondary education or high school",
+                            "value": "Secondary education or high school"
+                        },
+                        "vocational_studies": {
+                            "text": "Vocational qualification",
+                            "value": "Vocational qualification"
+                        },
+                        "bachelor_degree": {
+                            "text": "Bachelor's degree",
+                            "value": "Bachelor's degree"
+                        },
+                        "master_degree": {
+                            "text": "Master's degree",
+                            "value": "Master's degree"
+                        },
+                        "doctorate_higher": {
+                            "text": "Primary education",
+                            "value": "Doctorate or higher"
+                        }
+                    }
+                },
+                "marital_status": {
+                    "field_name": "Marital Status",
+                    "options": {
+                        "married": {
+                            "text": "Married",
+                            "value": "Married"
+                        },
+                        "unmarried": {
+                            "text": "Unmarried",
+                            "value": "Unmarried"
+                        }
+                    }
+                },
+                "gender": {
+                    "field_name": "Gender",
+                    "options": {
+                        "male": {
+                            "text": "Male",
+                            "value": "M"
+                        },
+                        "female": {
+                            "text": "Female",
+                            "value": "F"
+                        }
+                    }
+                }
+            },
+            "next_step_button": "Continue"
+        },
+        "address_information": {
+            "current_address": {
+                "title": ", please enter your current address",
+                "description": "Your information will be encrypted and securely processed.",
+                "form": {
+                    "city": {
+                        "field_name": "City",
+                        "placeholder": "City"
+                    },
+                    "pincode": {
+                        "field_name": "Pincode",
+                        "placeholder": "Pincode"
+                    },
+                    "state": {
+                        "field_name": "State",
+                        "placeholder": "State"
+                    },
+                    "address": {
+                        "field_name": "Address",
+                        "placeholder": "Address"
+                    }
+                }
+            },
+            "permanent_address": {
+                "title": ", please enter your address information",
+                "description": "Your information will be encrypted and securely processed.",
+                "form": {
+                    "city": {
+                        "field_name": "City",
+                        "placeholder": "City"
+                    },
+                    "pincode": {
+                        "field_name": "Pincode",
+                        "placeholder": "Pincode"
+                    },
+                    "state": {
+                        "field_name": "State",
+                        "placeholder": "State"
+                    },
+                    "address": {
+                        "field_name": "Address",
+                        "placeholder": "Address"
+                    }
+                }
+            },
+            "consent_bold": "Current Address ",
+            "consent": "is same as permanent address",
+            "next_step_button": "Continue"
+        },
+        "financial_information": {
+            "title": "Please populate your financial details",
+            "description": "Your information will be encrypted and securely processed.",
+            "form": {
+                "annual_income": {
+                    "field_name": "Annual Income",
+                    "placeholder": "Annual Income"
+                },
+                "employment_type": {
+                    "field_name": "Employment Type",
+                    "options": {
+                        "salaried": {
+                            "text": "Salaried",
+                            "value": "Salaried"
+                        },
+                        "self_employed": {
+                            "text": "Self Employed",
+                            "value": "Self Employed"
+                        },
+                        "unemployed": {
+                            "text": "Unemployed",
+                            "value": "Unemployed"
+                        }
+                    }
+                },
+                "company_name": {
+                    "field_name": "Company Name",
+                    "placeholder": "Company Name"
+                },
+                "current_status": {
+                    "field_name": "Do you still work here ?",
+                    "options": {
+                        "yes": {
+                            "text": "Yes",
+                            "value": "yes"
+                        },
+                        "no": {
+                            "text": "No",
+                            "value": "no"
+                        }
+                    }
+                }
+            },
+            "next_step_button": "Continue"
+        },
+        "company_information": {
+            "title": "Please enter your company address",
+            "description": "Your information will be encrypted and securely processed.",
+            "form": {
+                "company_city": {
+                    "field_name": "City",
+                    "placeholder": "City"
+                },
+                "company_pincode": {
+                    "field_name": "Pincode",
+                    "placeholder": "Pincode"
+                },
+                "company_state": {
+                    "field_name": "State",
+                    "placeholder": "State"
+                },
+                "company_address": {
+                    "field_name": "Address",
+                    "placeholder": "Address"
+                }
+            },
+            "next_step_button": "Submit Details"
+        }
+    },
+    "complete": {
+        "accept": {
+            "title": "You're eligible for credit.",
+            "description": "We'll soon credit the amount to your bank account"
+        },
+        "decline": {
+            "title": "You're not eligible for credit.",
+            "description": "Please try again after some days"
+        },
+        "waitlist": {
+            "title": "Your application has been submitted.",
+            "description": "We will revert soon."
+        },
+        "no_itr": {
+            "title": "Not Eligible",
+            "description": "You dont have an ITR Filed, you are not eligible for this."
+        }
+    },
+    "errors": {
+        "wrong_aadhaar": {
+            "message": "Wrong Aadhaar",
+            "instruction": "Please enter correct Aadhaar"
+        },
+        "wrong_pan": {
+            "message": "Either the Pan is wrong or Your Name doesn't match"
+        },
+        "no_records": {
+            "message": "No record for entered details found"
+        },
+        "invalid_pan_number": {
+            "message": "Please enter valid pan number"
+        },
+        "customer_not_found": {
+            "message": "No record found for this customer id"
+        },
+        "generic_error": {
+            "message": "Something went wrong",
+            "instruction": "Please try again"
+        },
+        "internal_server_error": {
+            "message": "Internal Server error",
+            "instruction": "Please try again after some time."
+        },
+        "invalid_token": {
+            "message": "Access Denied",
+            "instruction": "Please try again with a valid token"
+        },
+        "field_empty": {
+            "message": "All fields are required",
+            "instruction": "Please try again with a valid token"
+        },
+        "aadhaar_validation_error": {
+            "message": "Not Matched",
+            "instruction": "Information not matched, try again with different aadhaar"
+        },
+        "invalid_phone_otp": {
+            "message": "Please enter a valid OTP"
+        },
+        "wrong_otp": {
+            "message": "Wrong OTP",
+            "instruction": "Please try again with the correct OTP"
+        },
+        "wrong_password": {
+            "message": "Your Password is not correct"
+        },
+        "sms_failed": {
+            "message": "Something gone wrong",
+            "instruction": "Please try again"
+        },
+        "sms_overuse": {
+            "message": "Too many resend attempts",
+            "instruction": "Please try again after some time"
+        },
+        "checkbox_not_checked": {
+            "message": "Please give the consent by selecting the checkbox"
+        },
+        "full_name_invalid": {
+            "message": "Please enter space separated alpha characters only"
+        },
+        "father_name_invalid": {
+            "message": "Please enter space separated alpha characters only"
+        },
+        "mother_name_invalid": {
+            "message": "Please enter space separated alpha characters only"
+        },
+        "invalid_gender": {
+            "message": "Please select a gender"
+        },
+        "invalid_city": {
+            "message": "Only alpha character are allowed"
+        },
+        "invalid_pincode": {
+            "message": "Please enter a valid pincode"
+        },
+        "invalid_address": {
+            "message": "Please enter a valid address"
+        },
+        "invalid_annual_income": {
+            "message": "Please enter a valid income"
+        },
+        "invalid_company_name": {
+            "message": "Please enter a valid company name"
+        },
+        "invalid_working_status": {
+            "message": "Please select if you still work here"
+        },
+        "invalid_state": {
+            "message": "Please select a valid state"
+        },
+        "invalid_number": {
+            "message": "Please enter a valid phone number"
+        },
+        "invalid_dob": {
+            "message": "Please enter your Date of Birth"
+        },
+        "aadhaar_number_invalid": {
+            "message": "Please enter a valid aadhaar number"
+        },
+        "invalid_education": {
+            "message": "Please select your highest education"
+        },
+        "invalid_marital_status": {
+            "message": "Please select your marital status"
+        },
+        "invalid_employment_type": {
+            "message": "Please select a valid employment type"
+        }
+    }
+}
