@@ -93,6 +93,7 @@ const userDetails= {
   
   function onComplete() {
     console.log("Onboarding Complete");
+    flowBoard.tearDown()
   }
   
   function onError(error) {
