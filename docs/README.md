@@ -319,7 +319,7 @@ A number of options are available to allow you to customise the SDK:
   - `locale`: A locale tag. This is **required** when providing phrases for an unsupported language.
     You can also use this to partially customise the strings of a supported language (e.g. English), by passing a supported language locale tag (e.g. `es`). For missing keys, the values will be displayed in the language specified within the locale tag if supported, otherwise they will be displayed in English.
 
-  - `phrases` (required) : An object containing the keys you want to override and the new values. The keys can be found in [`src/locale/es.json`](src/locales/es.json). They can be passed as a nested object or as a string using the dot notation for nested values. See the examples below.
+  - `phrases` (required) : An object containing the keys you want to override and the new values. The keys can be found in [`src/locale/en.json`](../src/locales/en.json). They can be passed as a nested object or as a string using the dot notation for nested values. See the examples below.
 
   ```javascript
   language: {
