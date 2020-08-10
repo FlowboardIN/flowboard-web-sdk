@@ -205,7 +205,7 @@ FlowboardOut = Flowboard.init({...})
 FlowboardOut.tearDown()
 ```
 
-## Customising the SDK
+## Customizing the SDK
 
 A number of options are available to allow you to customise the SDK:
 
