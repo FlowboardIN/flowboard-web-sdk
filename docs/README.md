@@ -480,7 +480,7 @@ A number of options are available to allow you to customise the SDK:
           ]
         }
   ```
-  ### `ItrIntro`
+  ### `itrIntro`
   Introduction to ITR return fetching and Digital Income Collection.
 
   ### `itrPull`
@@ -520,11 +520,11 @@ A number of options are available to allow you to customise the SDK:
     }
   ```
 
-  ### `ApplicationFormIntro`
+  ### `applicationFormIntro`
 
   Introduction to application form for the respective facility.
 
-  ### `ApplicationForm`
+  ### `applicationForm`
 
   This step is meant for user to fill various details related to personal and employment information.
   The custom options are:
@@ -587,7 +587,7 @@ A number of options are available to allow you to customise the SDK:
     }
     ```
     
-    ### `Complete`
+    ### `complete`
   
     This step completes the onboarding process and the user won't be passed to further steps. `onSuccess` function to is invoked in this step. Here you can tear down the SDK. The custom options are:
     
