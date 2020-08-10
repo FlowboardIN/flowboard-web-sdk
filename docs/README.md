@@ -61,7 +61,7 @@ Make a note of the `token` value in the response, as you will need it later on w
 Include it as a regular script tag on your page:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/FlowboardIN/flowboard-web-sdk@1.0.0/lib/bundle/flowboard.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/FlowboardIN/flowboard-web-sdk@1.0.1/lib/bundle/flowboard.min.js"></script>
 ```
 
 And the CSS styles:
@@ -69,7 +69,7 @@ And the CSS styles:
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/FlowboardIN/flowboard-web-sdk@1.0.0/lib/bundle/flowboard.css"
+  href="https://cdn.jsdelivr.net/gh/FlowboardIN/flowboard-web-sdk@1.0.1/lib/bundle/flowboard.min.css"
 />
 ```
 
@@ -220,7 +220,7 @@ A number of options are available to allow you to customise the SDK:
       function triggerFlowboard() {
         window.Flowboard.init({
           token: 'JWT_CUSTOMER_TOKEN',
-          onComplete: function(data) {
+          onComplete: function() {
             // callback for when everything is complete
             console.log("everything is complete")
           }
@@ -589,7 +589,7 @@ A number of options are available to allow you to customise the SDK:
     
     ### `complete`
   
-    This step completes the onboarding process and the user won't be passed to further steps. `onSuccess` function to is invoked in this step. Here you can tear down the SDK. The custom options are:
+    This step completes the onboarding process and the user won't be passed to further steps. `onComplete` function to is invoked in this step. Here you can tear down the SDK. The custom options are:
     
      * `status` (string): 
 
