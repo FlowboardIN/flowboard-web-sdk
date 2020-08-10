@@ -1,4 +1,4 @@
-# Flowboard SDK UI Layer
+# Flowboard Web SDK
 
 [![N|Solid](flowboard.png)](https://)
 
