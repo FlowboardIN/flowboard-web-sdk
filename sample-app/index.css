@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+    *{
+      font-family: "Montserrat", sans-serif !important;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    html, body, #flowboard-app, .container , #flowboard-mount{
+      height: 100%;
+      margin: 0;
+    }
+    body, button {
+      -webkit-font-smoothing: antialiased;
+    }
+    @media screen and (min-height: 1081px) {
+      #flowboard-mount {
+        height: 1080px;
+      }
+    }
