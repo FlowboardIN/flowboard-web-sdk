@@ -515,7 +515,10 @@ A number of options are available to allow you to customise the SDK:
   
   ```javascript
     options:{
-      terms: `You agree to  <a href="https://example.com">terms and condition</a> and that you authorize us to fetch your information from UIDAI.`,
+      terms: {
+            description: "By clicking on proceed button below, you are hereby acknowledging that you are providing your Aadhaar related details voluntarily to Flowboard Private Limited to retrieve your Aadhaar Paperless-XML from the UIDAI Portal on your behalf based on the process detailed below.",
+            description_collapsed: "By accepting the Terms & Conditions you are expressly providing your consent to the collection of your information for the purpose of providing access of the same by Flowboard to enable Flowboard (\"Client\") to initiate your on boarding to avail the Client's services.",
+        },
       consent: `I agree to  <a href="https://example.com">terms and condition</a>`
     }
   ```
