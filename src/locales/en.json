@@ -209,15 +209,15 @@
             "description": "Your information will be encrypted and securely processed.",
             "form": {
                 "full_name": {
-                    "field_name": "Full Number",
+                    "field_name": "Full Name",
                     "placeholder": "Full Name"
                 },
                 "father_name": {
-                    "field_name": "Father Number",
+                    "field_name": "Father Name",
                     "placeholder": "Father Name"
                 },
                 "mother_name": {
-                    "field_name": "Mother Number",
+                    "field_name": "Mother Name",
                     "placeholder": "Mother Name"
                 }
             },
@@ -229,7 +229,7 @@
             "form": {
                 "aadhaar_number": {
                     "field_name": "Aadhaar Number",
-                    "placeholder": "Aadhaar Name"
+                    "placeholder": "Aadhaar Number"
                 },
                 "dob": {
                     "field_name": "D.O.B",
