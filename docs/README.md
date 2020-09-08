@@ -61,7 +61,7 @@ Make a note of the `token` value in the response, as you will need it later on w
 Include it as a regular script tag on your page:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/FlowboardIN/flowboard-web-sdk@1.0.3/lib/bundle/flowboard.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/FlowboardIN/flowboard-web-sdk@latest/lib/bundle/flowboard.min.js"></script>
 ```
 
 And the CSS styles:
@@ -69,7 +69,7 @@ And the CSS styles:
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/FlowboardIN/flowboard-web-sdk@1.0.3/lib/bundle/flowboard.min.css"
+  href="https://cdn.jsdelivr.net/gh/FlowboardIN/flowboard-web-sdk@latest/lib/bundle/flowboard.min.css"
 />
 ```
 
